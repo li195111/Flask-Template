@@ -1,0 +1,15 @@
+pip 
+
+# .env
+python-dotenv
+
+# Flask Async
+flask[async]
+# Cors, See https://github.com/corydolphin/flask-cors#usage
+Flask-Cors 
+
+# Memory Storage
+Redis
+
+# Async Task
+celery[redis]
